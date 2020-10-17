@@ -1,0 +1,115 @@
+
+.section__header {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    overflow: visible;
+    padding-top: 10px;
+    
+    padding-bottom: 20px;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    background-color: #078b49 !important;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.broadcat {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.partner_sites {
+    
+    vertical-align: middle;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-left: 10px;  
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    background-color: #4fe097 ;
+}
+
+.breadcrumbs {
+  margin-left: 10px;  
+  margin-right: 10px;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 16;
+  font-weight: 200;
+  background-color: #4fe097 !important;
+
+  
+}
+
+/*.section__header div {
+
+    background-color: #a1f1c9!important   ;
+}*/
+*, :after, :before, input[type=search] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+body {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    color: #333;
+   /* background-color: #f7fafb;*/
+    background-color:#4fe097;
+    font-weight: 300;
+    position: relative;
+    min-width: 320px;
+    line-height: 1.5;
+}
+
+.section__header>div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+    
+    align-items: center;
+}
+.container_fluid {
+    max-width: 1170px;
+}
+.container_fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #a1f1c9!important;
+}
+
+
+
+.container_fluid div {
+    background-color: #a1f1c9!important;
+}
+
+.container_fluid:after, .container_fluid:before {
+    content: " ";
+    display: table;
+}
+*, :after, :before, input[type=search] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container_fluid:after {
+    clear: both;
+}
+.container_fluid:after, .container_fluid:before {
+    content: " ";
+    display: table;
+}
+@media (min_width: 768px) {
+.section__header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+}

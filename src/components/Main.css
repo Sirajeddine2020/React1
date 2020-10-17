@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    color: darkred;
+    text-decoration: solid;
+    text-decoration-color: blue;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+h4 {
+    color: darkblue;
+    text-decoration: crimson;
+    font-style: italic;
+    text-align: center;
+    font-size: 14;
+    font-weight: 200;
+}
+
+div {
+
+    background-color: darksalmon ;
+}
+

@@ -1,0 +1,84 @@
+/*.navbar {
+    margin: 0;
+    background-color: #fff;
+    z-index: 10;
+    position: relative;
+    min-height: 50px;
+    border: 1px solid transparent;
+}*/
+.navbar__nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__fluid {
+    display: flex;
+    justify-content: space-between ;
+}
+h1,h4 {
+    margin-top: 15px;
+	font-size:20px !important;
+}
+.navbar__default {
+    background-color: grey;
+    border-color: olivedrab ;
+}
+ul { list-style-type: none;
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;}
+
+
+.navbar:after, .navbar:before {
+    content: " ";
+    display: table;
+}
+*, :after, :before, input[type=search] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.navbar:after {
+    clear: both;
+}
+.navbar:after, .navbar:before {
+    content: " ";
+    display: table;
+}
+*, :after, :before, input[type=search] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navbar__right {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end !important;
+    
+}
+
+ul li {
+    font-size: 18;
+    font-weight: 200;
+    padding-left: 10px; 
+    padding-right: 10px;
+    
+    
+}
+
+li a {
+	text-decoration: none !important;
+}
+
+@media (min-width: 768px){
+.navbar {
+    border-radius: 4px;
+}
+}
